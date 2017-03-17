@@ -1,0 +1,152 @@
+body{
+	background-image: linear-gradient(to bottom,#f8f8f8 0,#f8f8f8 100%);
+}
+
+.logo{
+
+	margin-right: 70px;
+	margin-top: -18px;
+}
+
+.input-text-search-header{
+	width:380px!important;
+}
+
+.background-home{
+	background-image: url('../images/background_home.jpg')!important;
+	margin: 0px 0px 10px 0px;
+	width: 100%;
+	text-align: center;
+	padding: 0px 0px 12% 0px;
+	min-height: 200px;
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 104% 160%;
+	margin-top: -33px;
+	color:#FFF!important;
+}
+
+.thumbnail a:hover{
+	text-decoration: none;
+}
+
+.thumbnail .precio{
+	color:#DF6810;
+	font-size: 1.3em;
+	/*font-weight: 700;*/
+	letter-spacing: -.5px;
+	text-align: left;
+}
+
+.thumbnail .estado{
+	color:#999;
+	font-size: 1.0em;
+	letter-spacing: -.5px;
+	text-align: left;
+}
+.thumbnail  p{
+	margin: 1px;
+}
+.caption h3{
+	margin: 1px;
+	font-size: 1.3em;
+}
+
+.total-pagination{
+	margin: 10px!important;
+}
+
+.nav-sidebar > .title {
+	padding-left: 20px;
+	color:#111 !important;
+	font-weight: bold;
+}
+
+.nav-sidebar > .subtitle {
+	padding-left: 40px;
+	margin-top: 10px;
+	color:#DF6810 !important;
+	
+}
+
+
+.nav-sidebar > .active > a{
+	background-color:#FFF !important;
+	color:#DF6810 !important;
+}
+
+.nav-sidebar a{
+	color:#DF6810;
+}
+
+.button-list{
+	width: 150px;
+	text-align: left;
+}
+
+.precio{
+	color:#DF6810;
+	font-size: 1.2em;
+	letter-spacing: -.5px;
+	text-align: left;
+}
+
+.precio-recomendado{
+	color:#DF6810;
+	font-size: 1.0em;
+	letter-spacing: -.5px;
+	text-align: left;
+}
+
+/*Esto es solo para la pagina de detalle*/
+/*
+.jumbotron{
+	padding-left: 2px!important;
+	padding-top: 2px!important;
+	padding-right: 2px!important;
+	padding-bottom: 2px!important;
+}*/
+
+
+/* para el login */
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+/*************  fin de login *******/
+
+
+
+

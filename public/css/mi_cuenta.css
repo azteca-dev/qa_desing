@@ -1,0 +1,131 @@
+
+.logo{
+
+	margin-right: 70px;
+	margin-top: -18px;
+}
+
+.input-text-search-header{
+	width:380px!important;
+}
+
+.background-home{
+	background-image: url('../images/background_home.jpg')!important;
+	margin: 0px 0px 10px 0px;
+	width: 100%;
+	text-align: center;
+	padding: 0px 0px 12% 0px;
+	min-height: 200px;
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 104% 160%;
+	margin-top: -33px;
+	color:#FFF!important;
+}
+
+.thumbnail a:hover{
+	text-decoration: none;
+}
+
+.thumbnail .precio{
+	color:#DF6810;
+	font-size: 1.3em;
+	/*font-weight: 700;*/
+	letter-spacing: -.5px;
+	text-align: left;
+}
+
+.thumbnail .estado{
+	color:#999;
+	font-size: 1.0em;
+	letter-spacing: -.5px;
+	text-align: left;
+}
+.thumbnail  p{
+	margin: 1px;
+}
+.caption h3{
+	margin: 1px;
+	font-size: 1.3em;
+}
+
+.total-pagination{
+	margin: 10px!important;
+}
+
+.nav-sidebar > .title {
+	padding-left: 20px;
+	color:#111 !important;
+	font-weight: bold;
+}
+
+.nav-sidebar > .subtitle {
+	padding-left: 40px;
+	margin-top: 10px;
+	color:#DF6810 !important;
+	
+}
+
+
+.nav-sidebar > .active > a{
+	background-color:#FFF !important;
+	color:#DF6810 !important;
+}
+
+.nav-sidebar a{
+	color:#DF6810;
+}
+
+.button-list{
+	width: 150px;
+	text-align: left;
+}
+
+.precio{
+	color:#DF6810;
+	font-size: 1.0em;
+	letter-spacing: -.5px;
+	text-align: left;
+}
+
+.precio-recomendado{
+	color:#DF6810;
+	font-size: 1.0em;
+	letter-spacing: -.5px;
+	text-align: left;
+}
+
+/*Esto es solo para la pagina de detalle*/
+/*
+.jumbotron{
+	padding-left: 2px!important;
+	padding-top: 2px!important;
+	padding-right: 2px!important;
+	padding-bottom: 2px!important;
+}*/
+
+
+.date_begin{
+	color: #00FF00;
+}
+.date_end{
+	color:#FF0000;
+}
+
+.title-band-listado{
+	font-size: 1.1em;
+}
+
+address > small{
+
+	color:#777;
+	font-size: 1.0em;
+
+}
+.resumen-number{
+	font-size: 4.5em;
+	color: #777;
+}
+
+
+
