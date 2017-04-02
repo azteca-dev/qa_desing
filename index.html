@@ -20,6 +20,11 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <style>
+      img{
+        max-width: 100%;
+      }
+    </style>
   </head>
   <body>
       <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -50,16 +55,18 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     
       <div class="container">
-          <h1>hola</h1>
-          <img src="/images/banda_1.jpg"  
-            srcset="/images/background_home.jpg 768w, /images/banda_2.jpg 1200w" />
+          <br><br><br>
+          <h1>imagen</h1>
+          <img srcset="/images/background_home.jpg 1600w, /images/publicidad_detalle.png 776w" />
 
-            Hola
-            <picture>  
-              <source media="(min-width: 1200px)" src="/images/banda_2.jpg.jpg">
-              <source media="(min-width: 768px)" src="/images/background_home.jpg">
-              <source src="/images/banda_1.jpg">
-            </picture> 
+          <br><br><br>
+          <h1>imagen2</h1>
+          <picture>
+            <source srcset="/images/publicidad_detalle.png" media="(max-width:500px)" />
+            <source srcset="/images/background_home.jpg" media="(max-width:900px)" />
+            <img src="/images/background_home.jpg"/>
+          </picture>
+            
 
       </div>
     
